@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_background_create"
+    tools:context=".ui.register.CreateProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="20dp">
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Staff"
+                        android:textSize="40dp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"/>
+                    <TextView
+                        android:layout_width="215dp"
+                        android:layout_height="wrap_content"
+                        android:text="Information"
+                        android:textSize="40dp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"/>
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_person_24"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"/>
+            </RelativeLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txt_fullname"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="Ho va ten"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/edt_fullname"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Nguyen Van A"
+                    android:padding="12dp"
+                    android:background="@drawable/custom_edt_input2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txt_DateOfBirth"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="Ngay sinh"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/edt_DateOfBirth"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="22/03/1999"
+                    android:padding="12dp"
+                    android:background="@drawable/custom_edt_input2"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txt_NumberPhone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="Số điện thoại"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/edt_NumberPhone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="0923546789"
+                    android:padding="12dp"
+                    android:background="@drawable/custom_edt_input2"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txt_Email"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="Email"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/edt_Email"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:ems="10"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:inputType="textPersonName"
+                    android:hint="nguyenvana@gmail.com"
+                    android:padding="12dp"
+                    android:background="@drawable/custom_edt_input2"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txt_CMND"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="CMND"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/edt_CMND"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="124458674"
+                    android:padding="12dp"
+                    android:background="@drawable/custom_edt_input2"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txt_Positions"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="Chuc vu"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/edt_Positions"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Nhan vien/ Truong nhom..."
+                    android:padding="12dp"
+                    android:background="@drawable/custom_edt_input2"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txt_CoefficientsSalary"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="He so luong"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/edt_CoefficientsSalary"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="2.3"
+                    android:padding="12dp"
+                    android:background="@drawable/custom_edt_input2"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txt_Admin"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="Admin"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <RadioGroup
+                    android:id="@+id/rdo_Group"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="6"
+                    android:weightSum="6">
+
+                    <RadioButton
+                        android:id="@+id/rdo_Yes"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Co"
+                        android:textSize="25dp"/>
+
+                    <RadioButton
+                        android:id="@+id/rdo_No"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="Khong"
+                        android:textSize="25dp"
+                        android:checked="true"/>
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center">
+
+
+                <Button
+                    android:id="@+id/bt_Clear"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Clear"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/custom_button1"/>
+
+                <Button
+                    android:id="@+id/bt_Next"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Next"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/custom_button1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "106806933800",
+    "firebase_url": "https://ltddnew1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ltddnew1",
+    "storage_bucket": "ltddnew1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106806933800:android:90732556f72012b029381d",
+        "android_client_info": {
+          "package_name": "vn.embosua.ltddquanlynhanvien"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106806933800-91dv0pj84n2g4uo74051o0pep1334t69.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.embosua.ltddquanlynhanvien",
+            "certificate_hash": "99eb7dee1332093641e9ea78cb5b033dfd1daf98"
+          }
+        },
+        {
+          "client_id": "106806933800-lcqme8ul2q4dc4gastqfivor2knet9g1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx7ayadAZhlWyjWWrDzIVVhx-GKErfHSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106806933800-lcqme8ul2q4dc4gastqfivor2knet9g1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
